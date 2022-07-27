@@ -1,0 +1,6 @@
+install sequelize-cli
+
+npx sequelize-cli init
+npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
+sequelize migration:generate --name "Create"
+sequelize db:migrate

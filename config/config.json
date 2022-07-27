@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "jay@2912",
+    "database": "demo",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "jay@2912",
+    "database": "demo",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "admin",
+    "password": "cagjyq-9hobmi-duZhyv",
+    "database": "medella",
+    "host": "medella.czodaimtqhku.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  }
+}
